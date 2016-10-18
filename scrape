@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+use Sainsburys\Commands\AppCommand;
+
+
+if (PHP_VERSION_ID < '50600') {
+    echo "This application requires a minimum PHP version of 5.6.0" . PHP_EOL;
+    exit;
+}
+
+require __DIR__.'/vendor/autoload.php';
+
+$app = new Application('Sainsburys Page Scraper');
+$app->add(new AppCommand());
+$app->run();

@@ -1,0 +1,26 @@
+{
+  "name": "Sainsburys Page Scraper",
+  "description": "Sainsbury's Coading Test for Software Engineering - coaded by Mital",
+  "type": "Application",
+  "author": [
+    {
+      "name": "Mital Mulashiya",
+      "email": "mital@ndinfosys.com"
+    }
+  ],
+  "require": {
+	  "php": ">=5.6",
+	  "symfony/console": "^3.1",
+      "guzzlehttp/guzzle": "^6.2",
+      "symfony/css-selector": "^3.1",
+      "symfony/dom-crawler": "^3.1",
+      "phpunit/phpunit": "^5.6",
+      "mockery/mockery": "^0.9.5"
+  },
+  "autoload": {
+      "psr-4": {
+        "Sainsburys\\": "application/source/",
+        "Sainsburys\\Tests\\": "application/tests/"
+      }
+  }
+}
