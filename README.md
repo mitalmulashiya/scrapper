@@ -1,4 +1,4 @@
-﻿# Sainsbury's Coading Test for Software Engineering - coaded by Mital #
+﻿# Sainsbury's Coding Test for Software Engineering - coded by Mital #
 
 A console application that shows ability to consume a webpage; scrapes the Sainsbury’s grocery site - Ripe Fruits page and returns a JSON array of all the products on the page.
 
